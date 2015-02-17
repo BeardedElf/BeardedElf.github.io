@@ -6,7 +6,20 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body onload="popup()"> 
-<div id="welcome"></div>
+<p>Do You want to play with Dragon?</p>
+<form>
+<input type="button" value="Yes" onclick="msg()">
+<input type="button" value="No" onclick="msg1()">
+</form>
+<script>
+function msg() {
+   alert("Let`s go!");
+}
+function msg1() {
+   alert("Maybe next time..!");
+}
+</script>
+<br>
 <style>
 .Green1 {
 background: transparent;
@@ -21,8 +34,6 @@ background: green;
 background: red;
 }
 </style>
-
-<input type="hidden"  name="chetyre"/> 
 <input type="radio" name="chetyre" id="chetyre2"/> 
 <input type="radio" name="chetyre" id="chetyre3"/>
 <div class="Green1"></div>
