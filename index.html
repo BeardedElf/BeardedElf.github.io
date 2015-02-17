@@ -11,37 +11,18 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <BODY>
- <body onload="popup()"> 
-  <div id="welcome"></div>
-<style>
-.Green1 {
-  background:  	transparent; 
-  width: 400px;
-  height: 400px;
-  transition: .5s;
-}
-
-#chetyre2:checked ~ .Green1 {
-  background: green;
-}
-#chetyre3:checked ~ .Green1 {
-  background: red;
-}
-
-</style>
-<input type="hidden"  name="chetyre"/> 
-<input type="radio" name="chetyre" id="chetyre2"/> 
-<input type="radio" value="Click me" name="chetyre" id="chetyre3"/>
-<div class="Green1"></div>
+<p>The button above activates a JavaScript when it is clicked.</p>
 <form>
-  <input type="button" value="Click me" onclick="showMessage()">
+  <input type="button" value="Yes" onclick="msg()">
+  <input type="button" value="No" onclick="msg1()">
 </form>
 
-<p>Шокирующая правда о тыждевелоперах Эдвантиса!</p>
-
 <script>
-function showMessage() {
-    alert("Витек- бака!");
+function msg() {
+    alert("Let`s go!");
+}
+function msg1() {
+    alert("Maybe next time..!");
 }
 </script>
 <center><a href="1.html"><span>Вперед! К Эльфийкам и драконам!</span></a></center>
