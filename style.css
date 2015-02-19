@@ -6,5 +6,7 @@
     font-family: 'AnimeAcev02';
     src: url('AnimeAcev02.ttf'); 
 }
-span{font:  100px AnimeAcev02}
+span{
+	font:  100px AnimeAcev02
+}
 
