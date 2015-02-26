@@ -26,11 +26,13 @@ background: red;
 {
 var div = document.getElementById('Test');
 div.className += " " + "Vitek-baka";
+div.className.replace('Vitek-baka', 'Vitek');
 }
 function myclickGreen()
 {
 var div = document.getElementById('Test');
 div.className += " " + "Vitek";
+div.className.replace('Vitek', 'Vitek-baka');
 }
 
 </script>
