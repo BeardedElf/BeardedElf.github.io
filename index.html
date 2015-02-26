@@ -22,15 +22,20 @@ background: red;
 }
 </style>
 <script>
- function myclick()
+ function myclickRed()
 {
 var div = document.getElementById('Test');
 div.className += " " + "Vitek-baka";
 }
+function myclickGreen()
+{
+var div = document.getElementById('Test');
+div.className += " " + "Vitek";
+}
 
 </script>
-<input type="button" value="Yes" onclick="myclick()"/>
-<input type="button" value="No" onclick="myclick()"/>
+<input type="button" value="Yes" onclick="myclickGreen()"/>
+<input type="button" value="No" onclick="myclickRed()"/>
 <div class="Green1" id="Test"></div>
 
 </body>
