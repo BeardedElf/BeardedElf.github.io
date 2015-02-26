@@ -5,21 +5,8 @@
 <link rel="stylesheet" href="/css/font-awesome.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
-<body onload="popup()"> 
-<p>Do You want to play with Dragon?</p>
-<form>
-<input type="button" value="Yes" onclick="msg()">
-<input type="button" value="No" onclick="msg1()">
-</form>
-<script>
-function msg() {
-   alert("Let`s go!");
-}
-function msg1() {
-   alert("Maybe next time..!");
-}
-</script>
-<br>
+<body> 
+
 <style>
 .Green1 {
 background: transparent;
@@ -27,17 +14,14 @@ width: 400px;
 height: 400px;
 transition: .5s;
 }
-#chetyre2:checked ~ .Green1 {
+.Vitek {
 background: green;
 }
-#chetyre3:checked ~ .Green1 {
+.Vitek-baka {
 background: red;
 }
 </style>
-<input type="radio" name="chetyre" id="chetyre2"/> 
-<input type="radio" name="chetyre" id="chetyre3"/>
-<div class="Green1"></div>
+<div class="Green1" id="Test"></div>
 
-<center><a href="1.html"><span>Вперед! К Эльфийкам и драконам!</span></a></center>
 </body>
 </html>
