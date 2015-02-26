@@ -22,10 +22,13 @@ background: red;
 }
 </style>
 <script>
-  var div = document.getElementById('Test')
+ function myclick()
+{
+document.getElementById('Test')
+}
 </script>
-<input type="button" value="Yes"/>
-<input type="button" value="No"/>
+<input type="button" value="Yes" myclick()/>
+<input type="button" value="No" myclick()/>
 <div class="Green1" id="Test"></div>
 
 </body>
