@@ -1,6 +1,7 @@
 ﻿body {
 	background-image: url('bg01.jpg');
 	background-repeat: no-repeat;
+	background-position: center top;
 	}
 
 @font-face {
