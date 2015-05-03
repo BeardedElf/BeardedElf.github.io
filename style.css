@@ -1,5 +1,6 @@
 ﻿body {
 	background-image: url('bg01.jpg');
+	background-position: center;
 	}
 
 @font-face {
