@@ -6,5 +6,38 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <style>
+.Green1 {
+background: transparent;
+width: 400px;
+height: 400px;
+transition: .5s;
+}
+.green {
+background: green;
+}
+.red {
+background: red;
+}
+</style>
+<script>
+ function myclickRed()
+{
+var div = document.getElementById('Test');
+div.className += " " + "red";
+div.className = 	div.className.replace('green', '');
+}
+function myclickGreen()
+{
+var div = document.getElementById('Test');
+div.className += " " + "green";
+div.className = 	div.className.replace('red', '');
+}
+
+</script>
+Правда ли што Витек-балбес?
+<input type="button" value="Yes" onclick="myclickGreen()"/>
+<input type="button" value="No" onclick="myclickRed()"/>
+<div class="Green1" id="Test"></div>
 </body>
 </html>
